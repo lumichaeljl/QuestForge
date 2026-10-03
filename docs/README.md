@@ -31,7 +31,7 @@ python -m unittest
 
 <!-- Add yourself here on your Git lesson: - Your Name (role) -->
 
-- Michael
+- Michael (builder)
 
 ## Where to start
 
