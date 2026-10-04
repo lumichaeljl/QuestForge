@@ -32,6 +32,7 @@ python -m unittest
 <!-- Add yourself here on your Git lesson: - Your Name (role) -->
 
 - Michael
+- Ada Lovelace (engineer)
 
 ## Where to start
 
