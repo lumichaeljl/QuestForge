@@ -18,12 +18,13 @@ def show_menu():
     print("6) Exit breakdown")
     print("7) First exit here")
     print("8) World summary")
+    print("9) Save game")
     print("0) Quit")
 
 
 def main():
     data = storage.load_data()
-    current = core.start_room(data)
+    current = data.get("saved_room", core.start_room(data))
     while True:
         show_menu()
         try:
@@ -57,6 +58,10 @@ def main():
             print(core.first_exit(room))
         elif choice == "8":
             print(reports.world_summary(data))
+        elif choice == "9":
+            data["saved_room"] = current
+            storage.save_data(data)
+            print("Game saved")
         else:
             print("Please pick a number from the menu.")
 
