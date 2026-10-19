@@ -18,6 +18,7 @@ def exits_for(room):
 
 
 def count_exits(room):
+    """Return how many exits a room has, as a number."""
     return len(room["exits"])
 
 
