@@ -26,6 +26,11 @@ python -m unittest
 | `features/reports.py` | Summary reports (half-built - finish it via a ticket) |
 | `data/questforge.json` | The room graph and move history |
 | `tests/test_core.py` | Example tests to copy from |
+| `tests/test_neighbors.py` | Tests for `neighbors(data, room_key)` in `features/core.py` |
+
+## Helpers
+
+- `neighbors(data, room_key)` in `features/core.py`: returns the list of room keys reachable directly from a room (empty list for a dead end).
 
 ## Team
 
