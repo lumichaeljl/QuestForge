@@ -16,6 +16,9 @@ def describe(room):
 def exits_for(room):
     return list(room["exits"].keys())
 
+def neighbors(data, room_key):
+    room = data["rooms"][room_key]
+    return list(room["exits"].values())
 
 def count_exits(room):
     """Return how many exits a room has, as a number."""
