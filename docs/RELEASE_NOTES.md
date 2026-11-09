@@ -16,3 +16,8 @@ release goes first. Keep each entry to what a user would notice.
 ```
 
 <!-- Your first real release note goes below this line. -->
+
+## v1.0 - 2026-11-08
+### Added
+- Added a "Save game" option (menu option 9) so you can quit and come back to the room you left off in (#1).
+- Added a "neighbors" helper that lists the rooms a room's exits lead to (#8).

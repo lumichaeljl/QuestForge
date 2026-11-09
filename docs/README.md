@@ -26,15 +26,18 @@ python -m unittest
 | `features/reports.py` | Summary reports (half-built - finish it via a ticket) |
 | `data/questforge.json` | The room graph and move history |
 | `tests/test_core.py` | Example tests to copy from |
-| `tests/test_neighbors.py` | Tests for `neighbors(data, room_key)` in `features/core.py` |
+| `tests/test_neighbors.py` | Tests for `neighbors(data, room_key)` |
+| `tests/test_storage.py` | Tests that a saved room loads back |
 
 ## Helpers
 
 - `neighbors(data, room_key)` in `features/core.py`: returns the list of room keys reachable directly from a room (empty list for a dead end).
 
-## Team
+## What you can do
 
-<!-- Add yourself here on your Git lesson: - Your Name (role) -->
+Run `python main.py` and pick option 9 to save the room you're in. Next time you start the game, you begin in that room.
+
+## Team
 
 - Michael (builder)
 
