@@ -47,6 +47,8 @@ and a Notes line telling you which files it touches.
 | `tickets/` | The eight tickets your squad works through |
 | `docs/README.md` | The product guide, plus the Team list you add yourself to |
 | `CONTRIBUTING.md` | The Definition of Done and the branch naming rules |
+| `tests/test_neighbors.py` | Tests for `neighbors(data, room_key)` |
+| `tests/test_storage.py` | Tests that a saved room loads back |
 
 ## Before you open your first pull request
 
